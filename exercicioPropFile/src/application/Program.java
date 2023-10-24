@@ -23,7 +23,7 @@ public class Program {
 		boolean sucess = new File(folderPath + "out").mkdir();
 		System.out.println("Folder craeted: " + sucess);
 		
-		String fileCSV = "/home/akara/Documentos/out/summary.csv";		
+		String fileCSV = "/home/akara/Documentos/out/summary.csv";
 		
 		
 		List<Items> list = new ArrayList<>();
@@ -32,8 +32,6 @@ public class Program {
 		list.add(new Items("Video Game Chair", 350.50, 3));
 		list.add(new Items("Iphone X", 900.00, 2));
 		list.add(new Items("Samsung Galaxy ", 850.00, 2));
-		
-		
 		
 		
 		for(Items item : list) {
