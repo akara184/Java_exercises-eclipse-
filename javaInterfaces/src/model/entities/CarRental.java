@@ -13,10 +13,13 @@ public class CarRental {
 	public CarRental() {
 	}
 
+	
 	public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle) {
 		this.start = start;
 		this.finish = finish;
 		this.vehicle = vehicle;
+	}
+
 
 	public LocalDateTime getStart() {
 		return start;

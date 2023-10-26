@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 import model.entities.CarRental;
 import model.entities.Vehicle;
+import model.services.BrazilTaxService;
+import model.services.RentalService;
 
 public class Program {
 
@@ -25,6 +27,23 @@ public class Program {
 		LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), fmt);
 		
 		CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
+
+		System.out.print("Entre com o preço por hora: ");
+		double pricePerHour = sc.nextDouble();
+		System.out.print("Entre o preço por dia: ");
+		double pricePerDay = sc.nextDouble();
+		
+		RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService());
+		
+		//I call CarRental so the callRental has SetInvoice
+		//This method calls SetInvoice class as pass some fixed parameters
+		//Now I have Invoice with parameters associated with carRental
+		rentalService.processInvoice(cr);
+		
+		System.out.println("Fatura: ");
+		System.out.println("Pagamento basico: " + cr.getInvoice().getBasicPayment());
+		System.out.println("imposto: " +cr.getInvoice().getTax());
+		System.out.println("Pagamento total: " + cr.getInvoice().getTotalPayment());
 		
 		sc.close();
 		

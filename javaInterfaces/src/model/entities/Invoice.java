@@ -2,26 +2,28 @@ package model.entities;
 
 public class Invoice {
 
-	private Double basicPaymnet;
+	private Double basicPayment;
 	private Double tax;
 
 	public Invoice() {
 		
 	}
 
-	public Invoice(Double basicPaymnet, Double tax) {
-		this.basicPaymnet = basicPaymnet;
+	
+	//This parameters are in RentalService.java
+	public Invoice(Double basicPayment, Double tax) {
+		this.basicPayment = basicPayment;
 		this.tax = tax;
 	}
 
 
-	public Double getBasicPaymnet() {
-		return basicPaymnet;
+	public Double getBasicPayment() {
+		return basicPayment;
 	}
 
 
-	public void setBasicPaymnet(Double basicPaymnet) {
-		this.basicPaymnet = basicPaymnet;
+	public void setBasicPayment(Double basicPayment) {
+		this.basicPayment = basicPayment;
 	}
 
 
@@ -34,6 +36,6 @@ public class Invoice {
 	}
 	
 	public Double getTotalPayment() {
-		return getBasicPaymnet() - getTax();
+		return getBasicPayment() - getTax();
 	}
 }
