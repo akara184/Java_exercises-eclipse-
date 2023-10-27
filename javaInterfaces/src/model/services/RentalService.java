@@ -1,5 +1,8 @@
 package model.services;
 
+import java.time.Duration;
+import java.util.regex.Matcher;
+
 import model.entities.CarRental;
 import model.entities.Invoice;
 
@@ -20,7 +23,23 @@ public class RentalService {
 		//CarRental has method and a attribute called Invoice
 		//This setInvoice points to a class called Invoice
 		//I'm putting fixed arguments because it is easier to maintain.
-		carRental.setInvoice(new Invoice(50.0, 10.0));
+		
+		double minutes = Duration.between(carRental.getStart(), carRental.getFinish()).toMinutes();
+		double hours = minutes / 60.0;
+		
+		double basicPayment;
+		if (hours <= 12.0) {
+			//Math.ceil is a function that rounding numbers
+			basicPayment = pricePerHour * Math.ceil(hours) ;
+		}else {
+			
+			basicPayment = pricePerDay * Math.ceil(hours / 24.0);
+		}
+		
+		
+		double tax = taxService.tax(basicPayment);
+		
+		carRental.setInvoice(new Invoice(basicPayment, tax));
 	}
 	
 }
