@@ -42,7 +42,7 @@ public class Program {
 		
 		System.out.println("Fatura: ");
 		System.out.println("Pagamento basico: " + cr.getInvoice().getBasicPayment());
-		System.out.println("imposto: " +cr.getInvoice().getTax());
+		System.out.println("imposto: " + cr.getInvoice().getTax());
 		System.out.println("Pagamento total: " + cr.getInvoice().getTotalPayment());
 		
 		sc.close();
