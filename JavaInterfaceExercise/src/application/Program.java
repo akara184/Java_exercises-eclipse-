@@ -39,6 +39,7 @@ public class Program {
 		System.out.println("Parcelas:");
 		service.processContract(contract, parcelas, new PaypalService());
 		
+		System.out.println(contract.getInstallments());
 
 
 

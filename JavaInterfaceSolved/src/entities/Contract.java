@@ -1,4 +1,4 @@
-package model.entities;
+package entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -9,15 +9,18 @@ public class Contract {
 	private Integer number;
 	private LocalDate date;
 	private Double totalValue;
+	//ASTERISTICOS NA UML, QUER IDZER VARIOS, ENTÃO TERÁ VARIAS 
+	private List<Installment> instalments = new ArrayList<Installment>();
 	
-	private List<Installment> installments = new ArrayList<Installment>();
-	
-	public Contract(Integer number, LocalDate data, Double totalValue) {
+	public Contract() {
+		
+	}
+
+	public Contract(Integer number, LocalDate date, Double totalValue) {
 		this.number = number;
-		this.date = data;
+		this.date = date;
 		this.totalValue = totalValue;
 	}
-	
 
 	public Integer getNumber() {
 		return number;
@@ -43,15 +46,11 @@ public class Contract {
 		this.totalValue = totalValue;
 	}
 
-
-	public List<Installment> getInstallments() {
-		return installments;
+	public List<Installment> getInstalments() {
+		return instalments;
 	}
 
 
-
-
-	
 	
 	
 	
