@@ -29,7 +29,7 @@ public class Employee implements Comparable<Employee>{
 		@Override
 		public int compareTo(Employee other) {
 			//Se eu adicionar o " - ", ele retorna decrescente 
-			return -Salary.compareTo(other.getSalary());
+			return Salary.compareTo(other.getSalary());
 		}
 		
 		
