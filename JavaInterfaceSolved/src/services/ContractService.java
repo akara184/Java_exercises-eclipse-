@@ -25,6 +25,7 @@ public class ContractService {
 			double fee = onlinePaymentService.paymentFee(basicQuota + interest);
 			double quota = basicQuota + interest + fee;
 			
+			//This is adding  CONTRACT -> INSTALLMENT MEMORY
 			contract.getInstalments().add(new Installment(dueDate, quota));
 			
 		}
