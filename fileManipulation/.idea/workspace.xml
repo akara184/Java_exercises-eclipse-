@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c148f4b9-20e3-468a-bf1d-d9cb1ed43d48" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Interface/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../Interface/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaInterfaceExercise/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaInterfaceExercise/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaInterfaceExercise/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaInterfaceExercise/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaInterfaceSolved/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaInterfaceSolved/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaInterfaceSolved/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaInterfaceSolved/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnSetEqual/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnSetEqual/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearnSetEqual/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LearnSetEqual/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LearningTreeSetComperable/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../LearningTreeSetComperable/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../defaultMethods/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../defaultMethods/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicioPropFile/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicioPropFile/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicioPropFile/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicioPropFile/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicioPropFiles/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicioPropFiles/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../findPath/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../findPath/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genericosDelimitados/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../genericosDelimitados/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genericsExerciseOne/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../genericsExerciseOne/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hashCodeAndEquals/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../hashCodeAndEquals/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hashCodeAndEquals/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hashCodeAndEquals/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaceComparable/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../interfaceComparable/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaceComparable/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interfaceComparable/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaces/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../interfaces/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaInterfaces/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../javaInterfaces/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learninMap/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../learninMap/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learningSet/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../learningSet/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapExercicioFixacao/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../mapExercicioFixacao/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setExercicioDeFixacao/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../setExercicioDeFixacao/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setExercicioDeFixacao/src/aplication/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/../setExercicioDeFixacao/src/aplication/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setExercise/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../setExercise/.project" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2bbh79prm2AUkbIf4piEneiHMrJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/akara/eclipse-workspace/fileManipulation",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-3bb87179ee21-JavaScript-IU-241.9959.31" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c148f4b9-20e3-468a-bf1d-d9cb1ed43d48" name="Changes" comment="" />
+      <created>1706489515889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706489515889</updated>
+      <workItem from="1706489516924" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

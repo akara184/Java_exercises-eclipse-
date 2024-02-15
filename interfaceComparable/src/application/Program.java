@@ -8,11 +8,9 @@ import java.util.Collections;
 import java.util.List;
 
 import entities.Employee;
-
 public class Program {
 
 	public static void main(String[] args) {
-
 		List<Employee> list = new ArrayList<>();
 		
 		String path = "/home/akara/Documentos/in.txt";

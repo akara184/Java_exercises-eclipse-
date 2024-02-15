@@ -2,7 +2,6 @@ package application;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -17,8 +16,8 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		 
-		
+
+
 		System.out.println("Entre os dados do contrato:");
 		System.out.print("Número: ");
 		int numero = sc.nextInt();
@@ -34,14 +33,14 @@ public class Program {
 		Contract contract = new Contract(numero, data, contrato);
 		
 		ContractService service = new ContractService();
-		
-		
+
+
 		System.out.println("Parcelas:");
 		service.processContract(contract, parcelas, new PaypalService());
 		
 		System.out.println(contract.getInstallments());
 
-
+		sc.close();
 
 	}
 
